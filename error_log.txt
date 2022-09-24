@@ -1,0 +1,1570 @@
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 193, in eval_sequence
+    print((raw_data["gt_extra"][0]))
+KeyError: 'gt_extra'
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 193, in eval_sequence
+    print((raw_data["tracker_confidence"][0]))
+KeyError: 'tracker_confidence'
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 203, in _load_raw_file
+    print(read_data[0])
+KeyError: 0
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 203, in _load_raw_file
+    print(read_data["0"])
+KeyError: '0'
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 202, in _load_raw_file
+    print(raw_data[0])
+UnboundLocalError: local variable 'raw_data' referenced before assignment
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 202, in _load_raw_file
+    print(read_data[0])
+KeyError: 0
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 192, in eval_sequence
+    print(raw_data["classes"])
+KeyError: 'classes'
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 205, in _load_raw_file
+    print(read_data[t].shape)
+AttributeError: 'list' object has no attribute 'shape'
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 94, in get_raw_seq_data
+    raw_data = {**raw_tracker_data, **raw_gt_data}  # Merges dictionaries
+NameError: name 'raw_tracker_data' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 94, in get_raw_seq_data
+    raw_data = {**raw_tracker_data, **raw_gt_data}  # Merges dictionaries
+NameError: name 'raw_tracker_data' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 206, in _load_raw_file
+    print(read_data[0])
+KeyError: 0
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 206, in _load_raw_file
+    print(read_data["0"])
+KeyError: '0'
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 94, in get_raw_seq_data
+    raw_data = {**raw_tracker_data, **raw_gt_data}  # Merges dictionaries
+NameError: name 'raw_tracker_data' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 94, in get_raw_seq_data
+    raw_data = {**raw_tracker_data, **raw_gt_data}  # Merges dictionaries
+NameError: name 'raw_tracker_data' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 94, in get_raw_seq_data
+    raw_data = {**raw_tracker_data, **raw_gt_data}  # Merges dictionaries
+NameError: name 'raw_tracker_data' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 94, in get_raw_seq_data
+    raw_data = {**raw_tracker_data, **raw_gt_data}  # Merges dictionaries
+NameError: name 'raw_tracker_data' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 94, in get_raw_seq_data
+    raw_data = {**raw_tracker_data, **raw_gt_data}  # Merges dictionaries
+NameError: name 'raw_tracker_data' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 94, in get_raw_seq_data
+    raw_data = {**raw_tracker_data, **raw_gt_data}  # Merges dictionaries
+NameError: name 'raw_tracker_data' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 94, in get_raw_seq_data
+    raw_data = {**raw_tracker_data, **raw_gt_data}  # Merges dictionaries
+NameError: name 'raw_tracker_data' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 94, in get_raw_seq_data
+    raw_data = {**raw_tracker_data, **raw_gt_data}  # Merges dictionaries
+NameError: name 'raw_tracker_data' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 94, in get_raw_seq_data
+    raw_data = {**raw_tracker_data, **raw_gt_data}  # Merges dictionaries
+NameError: name 'raw_tracker_data' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 94, in get_raw_seq_data
+    raw_data = {**raw_tracker_data, **raw_gt_data}  # Merges dictionaries
+NameError: name 'raw_tracker_data' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 94, in get_raw_seq_data
+    raw_data = {**raw_tracker_data, **raw_gt_data}  # Merges dictionaries
+NameError: name 'raw_tracker_data' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 94, in get_raw_seq_data
+    raw_data = {**raw_tracker_data, **raw_gt_data}  # Merges dictionaries
+NameError: name 'raw_tracker_data' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 94, in get_raw_seq_data
+    raw_data = {**raw_tracker_data, **raw_gt_data}  # Merges dictionaries
+NameError: name 'raw_tracker_data' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 197, in eval_sequence
+    print(data["gt_dets"]["1"])
+TypeError: list indices must be integers or slices, not str
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 239, in _load_raw_file
+    time_data = np.asarray(read_data[time_key], dtype=np.float)
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (39,) + inhomogeneous part.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 242, in _load_raw_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Cannot convert gt data for sequence MOT17-02-DPM to float. Is data corrupted?
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 196, in eval_sequence
+    print(data["tracker_confidence"])
+KeyError: 'tracker_confidence'
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 98, in get_raw_seq_data
+    print(len(raw_data['traker_dets'][87]))
+KeyError: 'traker_dets'
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 97, in get_raw_seq_data
+    print(len(raw_data['gt_dets']["87"]))
+TypeError: list indices must be integers or slices, not str
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 98, in get_raw_seq_data
+    print(len(raw_data['traker_dets'][87]))
+KeyError: 'traker_dets'
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 98, in get_raw_seq_data
+    print(len(raw_data['traker_dets']))
+KeyError: 'traker_dets'
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 98, in get_raw_seq_data
+    print(len(raw_data['trac ker_dets'][87]))
+KeyError: 'trac ker_dets'
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 197, in eval_sequence
+    seq_res[cls][met_name] = metric.eval_sequence(data)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/metrics/clear.py", line 72, in eval_sequence
+    if len(gt_ids_t) == 0:
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/metrics/clear.py", line 72, in eval_sequence
+    if len(gt_ids_t) == 0:
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 197, in eval_sequence
+    seq_res[cls][met_name] = metric.eval_sequence(data)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/metrics/clear.py", line 121, in eval_sequence
+    res['MT'] = np.sum(np.greater(tracked_ratio, 0.8))
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/metrics/clear.py", line 121, in eval_sequence
+    res['MT'] = np.sum(np.greater(tracked_ratio, 0.8))
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 197, in eval_sequence
+    seq_res[cls][met_name] = metric.eval_sequence(data)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/metrics/clear.py", line 120, in eval_sequence
+    tracked_ratio = gt_matched_count[gt_id_count > 0] / gt_id_count[gt_id_count > 0]
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/metrics/clear.py", line 120, in eval_sequence
+    tracked_ratio = gt_matched_count[gt_id_count > 0] / gt_id_count[gt_id_count > 0]
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 445, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious(gt_dets_t, tracker_dets_t, box_format='xywh')
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 257, in _calculate_box_ious
+    bboxes1 = deepcopy(bboxes1)
+UnboundLocalError: local variable 'bboxes1' referenced before assignment
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 445, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious(gt_dets_t, tracker_dets_t, box_format='xywh')
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 257, in _calculate_box_ious
+    bboxes1 = deepcopy(bboxes1)
+UnboundLocalError: local variable 'bboxes1' referenced before assignment
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 445, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious(gt_dets_t, tracker_dets_t, box_format='xywh')
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 257, in _calculate_box_ious
+    bboxes1 = deepcopy(bboxes1)
+UnboundLocalError: local variable 'bboxes1' referenced before assignment
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 445, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious(gt_dets_t, tracker_dets_t, box_format='xywh')
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 257, in _calculate_box_ious
+    bboxes1 = deepcopy(bboxes1)
+UnboundLocalError: local variable 'bboxes1' referenced before assignment
+
+
+
+
+
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 445, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious(gt_dets_t, tracker_dets_t, box_format='xywh')
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 269, in _calculate_box_ious
+    min_ = np.minimum(bboxes1[:, np.newaxis, :], bboxes2[np.newaxis, :, :])
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 269, in _calculate_box_ious
+    min_ = np.minimum(bboxes1[:, np.newaxis, :], bboxes2[np.newaxis, :, :])
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 195, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 362, in get_preprocessed_seq_data
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Evaluation is only valid for pedestrian class. Non pedestrian class (5910) found in sequence SeqTest at timestep 0.
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 195, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 362, in get_preprocessed_seq_data
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Evaluation is only valid for pedestrian class. Non pedestrian class (5910) found in sequence SeqTest at timestep 0.
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 195, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 362, in get_preprocessed_seq_data
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Evaluation is only valid for pedestrian class. Non pedestrian class (5910) found in sequence SeqTest at timestep 0.
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 195, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 356, in get_preprocessed_seq_data
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Evaluation is only valid for pedestrian class. Non pedestrian class (5910) found in sequence SeqTest at timestep 0.
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t, box_format='xywh')
+TypeError: _calculate_box_ious_3D() got an unexpected keyword argument 'box_format'
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 311, in _calculate_box_ious_3D
+    ious[i][j] = box3d_iou(corners_1[i], corners_2[j])[0]
+NameError: name 'box3d_iou' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 366, in _calculate_box_ious_3D
+    ious[i][j] = box3d_iou(corners_1[i], corners_2[j])[0]
+NameError: name 'box3d_iou' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 366, in _calculate_box_ious_3D
+    ious[i][j] = box3d_iou(corners_1[i], corners_2[j])[0]
+NameError: name 'box3d_iou' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 366, in _calculate_box_ious_3D
+    ious[i][j] = box3d_iou(corners_1[i], corners_2[j])[0]
+NameError: name 'box3d_iou' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+TypeError: _calculate_box_ious_3D() takes 2 positional arguments but 3 were given
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 366, in _calculate_box_ious_3D
+    ious[i][j] = box3d_iou(corners_1[i], corners_2[j])[0]
+NameError: name 'box3d_iou' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 366, in _calculate_box_ious_3D
+    ious[i][j] = box3d_iou(corners_1[i], corners_2[j])[0]
+NameError: name 'box3d_iou' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 366, in _calculate_box_ious_3D
+    ious[i][j] = self.box3d_iou(corners_1[i], corners_2[j])[0]
+NameError: name 'self' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 366, in _calculate_box_ious_3D
+    ious[i][j] = self.box3d_iou(corners_1[i], corners_2[j])[0]
+NameError: name 'self' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 366, in _calculate_box_ious_3D
+    ious[i][j] = box3d_iou(corners_1[i], corners_2[j])[0]
+NameError: name 'box3d_iou' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 367, in _calculate_box_ious_3D
+    ious[i][j] = box3d_iou(corners_1[i], corners_2[j])[0]
+NameError: name 'box3d_iou' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 367, in _calculate_box_ious_3D
+    ious[i][j] = box3d_iou(corners_1[i], corners_2[j])[0]
+NameError: name 'box3d_iou' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 367, in _calculate_box_ious_3D
+    ious[i][j] = box3d_iou(corners_1[i], corners_2[j])[0]
+NameError: name 'box3d_iou' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 366, in _calculate_box_ious_3D
+    ious[i][j] = _box3d_iou(corners_1[i], corners_2[j])[0]
+NameError: name '_box3d_iou' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 366, in _calculate_box_ious_3D
+    ious[i][j] = self._box3d_iou(corners_1[i], corners_2[j])[0]
+NameError: name 'self' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 366, in _calculate_box_ious_3D
+    ious[i][j] = _box3d_iou(corners_1[i], corners_2[j])[0]
+NameError: name '_box3d_iou' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 366, in _calculate_box_ious_3D
+    ious[i][j] = self._box3d_iou(corners_1[i], corners_2[j])[0]
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 330, in _box3d_iou
+    area1 = poly_area(np.array(rect1)[:,0], np.array(rect1)[:,1])
+NameError: name 'poly_area' is not defined
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 366, in _calculate_box_ious_3D
+    ious[i][j] = self._box3d_iou(corners_1[i], corners_2[j])[0]
+TypeError: _box3d_iou() missing 1 required positional argument: 'corners2'
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 366, in _calculate_box_ious_3D
+    ious[i][j] = self._box3d_iou(self, corners_1[i], corners_2[j])[0]
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 330, in _box3d_iou
+    area1 = self.poly_area(np.array(rect1)[:,0], np.array(rect1)[:,1])
+TypeError: poly_area() takes 2 positional arguments but 3 were given
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 366, in _calculate_box_ious_3D
+    ious[i][j] = self._box3d_iou(corners_1[i], corners_2[j])[0]
+TypeError: _box3d_iou() missing 1 required positional argument: 'corners2'
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 366, in _calculate_box_ious_3D
+    ious[i][j] = self._box3d_iou(corners_1[i], corners_2[j])[0]
+TypeError: _box3d_iou() missing 1 required positional argument: 'corners2'
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 362, in _calculate_box_ious_3D
+    corners_1_ordered[4] = corners_1[7]
+IndexError: index 7 is out of bounds for axis 0 with size 7
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 394, in _calculate_box_ious_3D
+    ious[i][j] = iou
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 394, in _calculate_box_ious_3D
+    ious[i][j] = iou
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 376, in _calculate_box_ious_3D
+    ious[i][j] = iou
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 376, in _calculate_box_ious_3D
+    ious[i][j] = iou
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 99, in get_raw_seq_data
+    ious = self._calculate_similarities(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 439, in _calculate_similarities
+    similarity_scores = self._calculate_box_ious_3D(gt_dets_t, tracker_dets_t)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 350, in _calculate_box_ious_3D
+    dim1 = bboxes1.shape[0]
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/_base_dataset.py", line 350, in _calculate_box_ious_3D
+    dim1 = bboxes1.shape[0]
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 195, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 417, in get_preprocessed_seq_data
+    data['gt_ids'][t] = gt_id_map[data['gt_ids'][t]].astype(np.int)
+  File "/home/hlee/.local/lib/python3.8/site-packages/numpy/__init__.py", line 281, in __getattr__
+    try:
+  File "/home/hlee/.local/lib/python3.8/site-packages/numpy/__init__.py", line 281, in __getattr__
+    try:
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+
+
+
+
+
+MotChallenge2DBox
+MyTrack
+Traceback (most recent call last):
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/eval.py", line 195, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 427, in get_preprocessed_seq_data
+    data['num_tracker_dets'] = num_tracker_dets
+  File "/home/hlee/py-mcftracker/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 427, in get_preprocessed_seq_data
+    data['num_tracker_dets'] = num_tracker_dets
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/hlee/python/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+
+
+
+
+
