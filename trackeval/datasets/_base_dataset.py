@@ -327,8 +327,8 @@ class _BaseDataset(ABC):
         rect1 = [(corners1[i,0], corners1[i,1]) for i in [4,6,2,0]]
         rect2 = [(corners2[i,0], corners2[i,1]) for i in [4,6,2,0]] 
         
-        # area1 = self.poly_area(np.array(rect1)[:,0], np.array(rect1)[:,1])
-        # area2 = self.poly_area(np.array(rect2)[:,0], np.array(rect2)[:,1])
+        area1 = self.poly_area(np.array(rect1)[:,0], np.array(rect1)[:,1])
+        area2 = self.poly_area(np.array(rect2)[:,0], np.array(rect2)[:,1])
         inter_area = self.Cal_area_2poly(rect1, rect2)
 
         # iou_2d = inter_area/(area1+area2-inter_area)
@@ -337,8 +337,8 @@ class _BaseDataset(ABC):
 
         inter_vol = inter_area * max(0.0, ymax-ymin)
         
-        vol1 = self.box3d_vol(corners1)
-        vol2 = self.box3d_vol(corners2)
+        vol1 = area1 * (corners1[1,2] - corners1[0,2])
+        vol2 = area2 * (corners2[1,2] - corners2[0,2])
         iou_3d = inter_vol / (vol1 + vol2 - inter_vol)
         return iou_3d
 
